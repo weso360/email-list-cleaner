@@ -1,6 +1,3 @@
-Sure, here's a simple README template for your script:
-
----
 
 # Email Cleaner
 
