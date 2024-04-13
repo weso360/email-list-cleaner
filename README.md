@@ -19,10 +19,10 @@ The Email Cleaner is a Python script designed to validate and clean email lists.
 
 1. **Input File**: Create a CSV file containing the list of email addresses to be cleaned. Each email address should be in a separate row.
 
-2. **Run Script**: Execute the `email_cleaner.py` script, providing the path to the input CSV file as an argument.
+2. **Run Script**: Execute the `script.py` script, providing the path to the input CSV file as an argument or have 'emails.csv' file within the same directory as the .py file.
 
     ```bash
-    python email_cleaner.py path/to/emails.csv
+    python/python3 script.py
     ```
 
 3. **Output**: The script will display the cleaned email list along with statistics on invalid, inactive, and potential spam trap email addresses.
@@ -41,7 +41,7 @@ invalid-email
 Running the script:
 
 ```bash
-python email_cleaner.py emails.csv
+python script.py
 ```
 
 Output:
